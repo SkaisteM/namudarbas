@@ -4,96 +4,91 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="different.css">
 </head>
-
 <body>
-    <form style="border: 1px solid black; ">
-        <table border=1>
+    <form>
+        <table>
             <tr>
-                <th>
-                    <label for="result"></label>
-                    <input type="text" value="0"/>
-                </th>
+                <td >
+                    <input id="result" type="text" name="result" placeholder="0" />
+                </td>
+            </tr>
+        </table>
+
+       <table>
+           <tr>
+               <td>
+                <input type="button" value="9" />
+               </td>
+
+               <td>
+               <input type="button" value="8" />
+               </td>
+
+               <td>
+               <input type="button" value="7" />
+               </td>
+
+                <td>
+                <input class="different" type="button" value="/" />
+               </td>
+            </tr>
+
+           <tr>
+               <td>
+                <input type="button" value="6" />
+               </td>
+
+               <td>
+               <input type="button" value="5" />
+               </td>
+
+               <td>
+               <input type="button" value="4" />
+               </td>
+
+                <td>
+               <input class="different" type="button" value="*" />
+               </td>
+            </tr>
+
+           <tr>
+               <td>
+                <input type="button" value="3" />
+               </td>
+
+               <td>
+               <input type="button" value="2" />
+               </td>
+
+               <td>
+               <input type="button" value="1" />
+               </td>
+
+                <td>
+               <input class="different" type="button" value="-" />
+               </td>
             </tr>
 
             <tr>
+               <td>
+                <input type="button" value="0" />
+               </td>
+
+               <td>
+               <input class="different" type="button" value="." />
+               </td>
+
+               <td>
+               <input class="different" type="button" value="=" />
+               </td>
+
                 <td>
-                   <table border=1>
-                       <tr>
-                           <td>
-                            <input type="button" value="9" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="8" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="7" />
-                           </td>
-
-                            <td>
-                           <input type="button" value="/" />
-                           </td>
-                        </tr>
-
-                       <tr>
-                           <td>
-                            <input type="button" value="6" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="5" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="4" />
-                           </td>
-
-                            <td>
-                           <input type="button" value="*" />
-                           </td>
-                        </tr>
-
-                       <tr>
-                           <td>
-                            <input type="button" value="3" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="2" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="1" />
-                           </td>
-
-                            <td>
-                           <input type="button" value="-" />
-                           </td>
-                        </tr>
-
-                        <tr>
-                           <td>
-                            <input type="button" value="0" />
-                           </td>
-
-                           <td>
-                           <input type="button" value="." />
-                           </td>
-
-                           <td>
-                           <input type="button" value="=" />
-                           </td>
-
-                            <td>
-                           <input type="button" value="+" />
-                           </td>
-                        </tr>
-
-
-     </table>
+               <input class="different" type="button" value="+" />
+               </td>
+            </tr>
+        </table>
    </form>
-
 </body>
 </html>
