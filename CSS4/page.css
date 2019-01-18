@@ -1,0 +1,59 @@
+body{
+    border: 3px solid black;
+    border-style: double;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    margin: 50px 0px 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    width: 560px;
+    padding:0 446px 0 446px;
+}
+
+.nav{
+    width: 560px;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul{
+    width: 560px;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 0;
+
+}
+#mainPage{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 20px 30px 20px;
+}
+
+.text{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
