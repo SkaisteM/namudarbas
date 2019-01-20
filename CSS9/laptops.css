@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #f4f4e8;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card-body{
+    display: flex;
+    flex-flow: column;
+    width: 210px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+img{
+    max-height: 150px;
+    max-width: 200px;
+    padding-left: 10px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.brand{
+    color: #779cea;
+    font-size: 17px;
+}
+
+.card-body:hover{
+    box-shadow: 1px 2px 4px #779cea;
+}
+
+.ram{
+    margin-bottom: 0px;
+}
+
+.wide{
+    margin: 0px;
+}
+
+.discount{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0px 0px 0px;
+}
+
+.old-price{
+    text-decoration: line-through;
+    margin: 0px;
+}
+
+button{
+    background-color: #71ed65;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+button{
+    color:white;
+    text-decoration: none;
+}
+
+.footer{
+    font-size: 10px;
+    color: #51772f;
+}
