@@ -1,0 +1,13 @@
+nav a{
+    color: white;
+}
+
+.card{
+    margin: 30px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.card-text{
+    font-size: 12px;
+    margin-top: 10px;
+}
