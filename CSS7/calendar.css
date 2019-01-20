@@ -1,0 +1,33 @@
+.main{
+font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #edf3ff;
+    box-shadow: 1px 0px 3px black;
+    margin: 5px;
+    text-align: left;
+    font-size: 25px;
+}
+.box span {
+    font-size: 12px;
+    background-color: #e0d6ff;
+
+}
+
+.week{
+    display: inline-flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.box:nth-child(7n+6){
+    background-color: #ffbae0;
+}
+.box:nth-child(7n+7){
+    background-color: #ffbae0;
+}
