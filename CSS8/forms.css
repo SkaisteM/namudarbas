@@ -1,0 +1,65 @@
+.main{
+    width: 800px;
+
+}
+
+.first{
+    background-color: #fffcbc;
+    padding: 15px;
+}
+
+label{
+  float: left;
+}
+
+input[type=text]{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 100px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+input[type=email]{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 100px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+button{
+    width: 53%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.second{
+    background-color: #c7ffad;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+table.registered {
+    width: 90%;
+    border: 2px solid black;
+    line-height: 30px;
+    border-collapse:collapse;
+}
+
+th {
+    background-color: #c6a3ff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.registered td {
+    border: 2px solid black;
+    padding: 5px;
+
+}
+
+.name{
+    width: 60%;
+}
