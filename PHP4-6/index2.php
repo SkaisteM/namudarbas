@@ -1,5 +1,4 @@
 
-<!--I UZDUOTIS-->
 <?php
 $cities=['Berlynas', 'Roma', 'Londonas'];
 $cities[ ] = 'Tokijas';
