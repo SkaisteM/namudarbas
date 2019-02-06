@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/myStyle.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <title>FlowerShop</title>
   </head>
@@ -16,7 +17,7 @@
 <!--      NAVIGATION    -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="logotipas">
-              <a class="navbar-brand" href="#">FlowerShop</a>
+              <a class="navbar-brand" href="index.html">FlowerShop</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -24,23 +25,23 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav container d-flex justify-content-end">
                   <a class="nav-item nav-link active mr-5" href="#">Pradinis <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link mr-5" href="#">Gėlės</a>
-                  <a class="nav-item nav-link" href="#">Kontaktai</a>
+                  <a class="nav-item nav-link mr-5" href="geles.html">Gėlės</a>
+                  <a class="nav-item nav-link" href="kontaktai.html">Kontaktai</a>
                 </div>
             </div>
         </nav>
 <!--    CAROUSEL -->
-        <div class="d-none d-sm-block">
+        <div class="d-none d-sm-block ">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="Images/all_top-min.jpg" class="d-block w-100" alt="...">
+                  <img src="Images/all_top-min.jpg" class="d-block w-100 kaktusas" alt="kambarinės gėlės iš viršaus perspektyvos">
                 </div>
                 <div class="carousel-item">
-                  <img src="Images/one_red-min.jpg" class="d-block w-100" alt="...">
+                  <img src="Images/one_red-min.jpg" class="d-block w-100 kaktusas" alt="raudonas kaktusas">
                 </div>
                 <div class="carousel-item">
-                  <img src="Images/one_yellow-min.jpg" class="d-block w-100" alt="...">
+                  <img src="Images/one_yellow-min.jpg" class="d-block w-100 kaktusas" alt="geltonas kaktusas">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -55,43 +56,32 @@
         </div>
 <!--            END OF CAROUSEL-->
 
-
-<!--               ROUNDED - CARDS   -->
-        <div class="container mt-5">
+<!--               text and big button   -->
+        <div class="container mb-5">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="rounded-card text-center">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Sukulentai</h2>
-                        <p>Egzotiškiausius ir retus sukulentus rasite tik pas mus.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">Pasirinkti »</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rounded-card text-center">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Kaktusai</h2>
-                        <p>Dideli ir bespygliai kaktusai asortimente! </p>
-                        <p><a class="btn btn-secondary" href="#" role="button">Pasirinkti »</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rounded-card text-center">
-                        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                        <h2>Lapinės gėlės</h2>
-                        <p>Retos ir tradicinės rūšys.</p>
-                        <p><a class="btn btn-secondary" href="#" role="button">Pasirinkti »</a></p>
-                    </div>
+                <div class="col mt-5">
+                    <h1 class="antraste">FlowerShop - didžiausia retų rūšių gėlių parduotuvė internete</h1>
+                    <p class="reklama">Siūlo platų egzotiškų, retų ir netradicinių augalų asortimentą. Gėlės skirtos namų ar darbo aplinkos, viešųjų erdvių dekorui. Kviečiame išsirinkti Jums labiausiai patikusius augalus jau dabar!</p>
+                    <button type="button" class="btn btn-dark col-sm-6 col-md-3 col-lg-3">PASIRINKTI</button>
                 </div>
             </div>
-        </div>
-<!--           END OF ROUNDED-CARDS -->
+      </div>
+<!--           END of text and big button  -->
 
 <!--            my footer-->
-        <div class="mt-5">
-            <footer class="footer mt-auto py-3 bg-light fixed-bottom">
+        <div class="">
+            <footer class="footer py-1 pt-0 bg-light mt-5 ">
                 <div class="container">
-                    <span class="text-muted">Place sticky footer content here.</span>
+                    <div class="row footer-info">
+                        <div class="col text-muted d-none d-sm-block"> &#169; Visos teisės saugomos </div>
+                        <div class="col text-muted d-none d-sm-block">Nuotraukų šaltinis: <a href="https://unsplash.com/">https://unsplash.com/</a></div>
+                        <div class="d-flex text-muted align-self-end">Susisiekime:
+                            <div class="ikona d-inline-flex align-items-md-end justify-content-md-end"><a href="https://www.facebook.com/vilniuscoding/"><i class="fab fa-facebook-square fa-2x"></i></a></div>
+                            <div class="ikona d-inline-flex align-items-md-end justify-content-md-end"><a href="https://www.instagram.com/vilniuscodingschool/?hl=en"><i class="fab fa-instagram fa-2x"></i></a></div>
+                            <div class="ikona d-inline-flex align-items-md-end justify-content-md-end"><a href="mailto: info@vilniuscoding.lt"><i class="far fa-envelope fa-2x"></i></a></div>
+                        </div>
+                    </div>
+                    <div  class="d-none d-sm-block about-footer mt-1">FlowerShop - gėlių parduotuvė internete, savo prekes pardavinėjanti už priimtiną kainą. Kaktusai, sukulentai, lapinės gėlės iš Brazilijos, Argentinos, Australijos. Teikiame platų kalninių augalų asortimentą nedidelėmis kainomis.</div>
                 </div>
             </footer>
         </div>

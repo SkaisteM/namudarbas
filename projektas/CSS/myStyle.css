@@ -1,11 +1,54 @@
+@media only screen and (max-width: 800px) {
+  div .carousel-inner {
+    height: 150px;
+  }
+}
+
 body{
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+    margin:0;
+    height:100%;
 }
+
+.navbar-brand{
+    font-size: 2em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.nav-item{
+    font-size: 1em;
+}
+
+.antraste{
+    font-size: 2em;
+}
+.reklama{
+    font-size: 1em;
+}
+
 .carousel-inner{
-    height: 400px;
-/*    margin-bottom: 20px;*/
+    height: 20em;
 }
 
-.rounded-card{
+img {
+    max-height: 100%;
+}
 
+.ikona{
+    padding-left: 10px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+.footer-info{
+    font-size: 0.7em;
+}
+
+.about-footer{
+    font-size: 0.5em;
 }
