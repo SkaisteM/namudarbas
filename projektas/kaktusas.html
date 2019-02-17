@@ -8,8 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/myStyle.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/modal.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
     <title>FlowerShop</title>
   </head>
@@ -30,7 +32,78 @@
                 </div>
             </div>
         </nav>
+<!--      BREADCRUMB NAVIGATION-->
+        <div class="container mt-3">
+            <h3>Kaktusai</h3>
+            <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Pradinis</a></li>
+                <li class="breadcrumb-item"><a href="geles.html">Gėlės</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Kaktusai</li>
+            </ol>
+            </nav>
+        </div>
+<!--SHOP ITEMS CACTUS-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/k1.jpg" width="250" height="270" alt="Puosnusis Zvaigzdinas">
+                        <div class="card-body">
+                            <h5 class="card-title">Puošnusis žvaigždinas</h5>
+                            <p class="card-text"><cite>Astrophytum ornatum</cite> </p>
+                            <h4><span class="badge">9,99 &#8364;</span></h4>
+                            <div class="btn-group" role="group" aria-label="Priežiūra">
+                                <button type="button" class="btn btn-dark click">Priežiūra</button>
+                            </div>
+                            <!-- Modal content -->
+                            <div class="modal mForma">
+                                <div class="modal-content">
+                                    <div class="close">&times;</div>
+                                    <img src="Images/modp2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-sm-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/k2.jpg" width="250" height="270" alt="Zvaigzdinas">
+                        <div class="card-body">
+                            <h5 class="card-title">Žvaigždinas</h5>
+                            <p class="card-text"><cite>Astrophytum</cite> </p>
+                            <h4><span class="badge">9,99 &#8364;</span></h4>
+                            <div class="btn-group" role="group" aria-label="Priežiūra">
+                                <button type="button" class="btn btn-dark click">Priežiūra</button>
+                            </div>
+                            <!-- Modal content -->
+                            <div class="modal mForma">
+                                <div class="modal-content">
+                                    <div class="close">&times;</div>
+                                    <img src="Images/modp1.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <img class="card-img-top" src="Images/k3.jpg" width="250" height="270" alt="Eziakaktusis">
+                        <div class="card-body">
+                            <h5 class="card-title">Ežiakaktusis</h5>
+                            <p class="card-text"><cite>Echinocactus</cite> </p>
+                            <h4><span class="badge">11,99 &#8364;</span></h4>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-dark">Priežiūra</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+      </div>
 <!--            my footer         -->
         <div>
             <footer class="footer py-1 pt-0 bg-light mt-5 ">
@@ -49,6 +122,7 @@
             </footer>
         </div>
 
+    <script src="JS/modal.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
