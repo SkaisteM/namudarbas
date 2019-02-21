@@ -1,27 +1,26 @@
+var buttons = document.getElementsByClassName("click");
+var buttonsCount = buttons.length;
+for (var i = 0; i <= buttonsCount; i += 1) {
+    buttons[i].onclick = function(e) {
+        //alert((this.id).slice(-1));
+        var kodas=(this.id).slice(-1);
 
-// Get the modal
-    var modal = document.getElementsByClassName("mForma");
+        var modal = document.getElementsByClassName('mForma')[kodas];
+        modal.style.display = "block";
+
+        var span = document.getElementsByClassName("close")[kodas];
 
 
-    // Get the button that opens the modal
-    var btn = document.getElementsByClassName("click");
+        span.onclick = function() {
+          modal.style.display = "none";
+        };
 
-    // Get the <span> element that closes the modal
-    var div = document.getElementsByClassName("close")[0];
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+            };
 
-    // When the user clicks the button, open the modal
-    btn.onclick = function() {
-    modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    div.onclick = function() {
-    modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-    if (event.target == modal) {
-    modal.style.display = "none";
-    }
-    }
+    };
+}

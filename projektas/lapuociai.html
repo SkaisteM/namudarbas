@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS/myStyle.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/modal.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -52,7 +53,14 @@
                             <p class="card-text"><cite>Primula</cite> </p>
                             <h4><span class="badge">5,99 &#8364;</span></h4>
                             <div class="btn-group" role="group" aria-label="Basic example">
-                                <button type="button" class="btn btn-dark">Priežiūra</button>
+                                <button type="button" id="btn-0" class="btn btn-dark click">Priežiūra</button>
+                            </div>
+                            <!-- Modal content -->
+                            <div class="modal mForma">
+                                <div class="modal-content">
+                                    <div class="close">&times;</div>
+                                    <img class="prieziura" src="Images/modp4.png" >
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -65,7 +73,14 @@
                                 <p class="card-text"><cite>Hyacinthus</cite> </p>
                                 <h4><span class="badge">4,99 &#8364;</span></h4>
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-dark">Priežiūra</button>
+                                    <button type="button" id="btn-1" class="btn btn-dark click">Priežiūra</button>
+                                </div>
+                                <!-- Modal content -->
+                                <div class="modal mForma">
+                                    <div class="modal-content">
+                                        <div class="close">&times;</div>
+                                        <img class="prieziura" src="Images/modp2.png" >
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +93,14 @@
                                 <p class="card-text"><cite>Phalaenopsis</cite> </p>
                                 <h4><span class="badge">6,99 &#8364;</span></h4>
                                 <div class="btn-group" role="group" aria-label="Basic example">
-                                    <button type="button" class="btn btn-dark">Priežiūra</button>
+                                    <button type="button" id="btn-2" class="btn btn-dark click">Priežiūra</button>
+                                </div>
+                                <!-- Modal content -->
+                                <div class="modal mForma">
+                                    <div class="modal-content">
+                                        <div class="close">&times;</div>
+                                        <img class="prieziura" src="Images/modp3.png" >
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -104,6 +126,7 @@
             </footer>
         </div>
 
+    <script src="JS/modal.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
