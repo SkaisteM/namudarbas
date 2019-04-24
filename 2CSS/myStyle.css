@@ -2,65 +2,73 @@
 body{
     font-family: arial;
 }
-#main{
+.main{
     background-color: #d5dbdd;
     width: 400px;
     border: 15px solid #d5dbdd;
+    margin-bottom: 15px;
 }
-h1{
+.head{
     background-color: #f1f3f4;
     color: #525760;
     margin-top: 0px;
     line-height: 60px;
     padding-left: 15px;
 }
-p{
+p, td{
     margin: 0;
     color: white;
     line-height: 30px;
+    padding: 0;
 }
-#fourteen{
+table{
+    border-spacing: 0;
+}
+.name{
+margin: 5px;
+}
+.fourteen{
     background-color: #4747d1;
 }
-#thirteen{
+.thirteen{
     background-color: #5c5cd6;
 }
-#twelve{
+.twelve{
     background-color: #7070db;
 }
-#eleven{
+.eleven{
     background-color: #8585e0;
 }
-#ten{
+.ten{
     background-color: #9999e6;
 }
-#nine{
+.nine{
     background-color: #adadeb;
 }
-#eight{
+.eight{
     background-color: #c2c2f0;
 }
-#seven{
+.seven{
     background-color: #00e6ac;
 }
-#six{
+.six{
     background-color: #ffe6ee;
 }
-#five{
-    background-color: #ffccdd;
+.five{
+  background-color: #ffccdd;
 }
-#four{
+.four{
     background-color: #ffb3cc;
 }
-#three{
+.three{
     background-color: #ff99bb;
 }
-#two{
+.two{
     background-color: #ff80aa;
 }
-#one{
+.one{
     background-color: #ff6699;
 }
-#zero{
+.zero{
     background-color: #ff4d88;
 }
