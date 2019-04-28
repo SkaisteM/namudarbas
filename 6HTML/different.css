@@ -1,6 +1,7 @@
 #square{
     width: 178px;
     border: 1px solid black;
+    background-image: linear-gradient(90deg, #747475, #b2b2b2);
 }
 
 #result {
