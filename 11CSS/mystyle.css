@@ -1,0 +1,29 @@
+nav a{
+    color: white;
+}
+
+.kaire{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.card{
+    margin: 5px;
+    box-shadow: 1px 1px 3px gray;
+    padding: 0px;
+}
+
+.card-body{
+
+}
+
+.card-text{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+ul{
+    padding: 0px;
+}
+.card-text li{
+    list-style-type: none;
+}
