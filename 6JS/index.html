@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 6 ND</title>
+</head>
+
+<body>
+
+    <div id="cenzas">
+     <button onclick="myFunction()">Patvirtinkite savo amziu</button>
+    </div>
+
+    <script>
+        document.getElementById('cenzas').onclick = function() {
+            var yourAge = Number(prompt("Koks jusu amzius?"));
+            var legalAge = 18;
+
+            if (yourAge >= legalAge){
+                alert("Sveiki atvyke!");
+            } else {
+                alert("Jus neturite teises perziureti turinio del amziaus cenzo apribojimu");
+            }
+        }
+    </script>
+</body>
+
+</html>
