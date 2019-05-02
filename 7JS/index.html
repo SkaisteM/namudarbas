@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS7 ND</title>
+</head>
+
+<body>
+    <script>
+        /*1 variantas*/
+        var myArray = ["Jonas", "Petras", "Martynas", "Ona", "Urtė", "Ema"];
+        var noPrint = myArray.splice(2, 1);
+        console.log(myArray);
+
+        /*2 variantas*/
+        var myArray = ["Jonas", "Petras", "Martynas", "Ona", "Urtė", "Ema"];
+        var noPrint = myArray.indexOf("Martynas");
+        if (noPrint != -1){
+            myArray.splice(noPrint, 1);
+        }
+        console.log(myArray);
+    </script>
+
+</body>
+
+</html>
